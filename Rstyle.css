@@ -1,0 +1,63 @@
+@media(max-width:667px){
+    .f_head{
+        display:none;
+    }
+    .navbar-brand{
+        margin-right: 0px;
+    }
+    .carousel-item .abs_div_slider h1{
+        font-size: 25px;
+        font-family: 'Playfair Display', serif;
+    }
+    .carousel-item .abs_div_slider{
+        left: 30%;
+    }
+    .carousel-item .abs_div_slider p{
+        font-size: 18px;
+
+    }
+    .main_title{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+    }
+    .sub_tittle{
+        font-family: 'Playfair Display', serif;
+        font-family: 'Satisfy', cursive;
+        color: skyblue;
+        font-size: 20px;
+    }
+    .second_nav li{
+        display: inline-block !important;
+        margin-left: 10px;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        color: black;
+    }
+    .second_nav li a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px !important;
+    }
+    .second_nav{
+        margin-left: -40px;
+    }
+    .btn_mrinfo{
+        height: 50px;
+        width: 200px;
+        font-weight: bold;
+        color: white;
+        border: none;
+        background-color: #E6B59E;
+        margin-top: 13px;
+        margin-left:0px;
+    }
+    .navbar{
+        position: sticky;
+        top: 0px;
+        z-index: 999;
+        padding-top: 10px;
+    }
+
+}
